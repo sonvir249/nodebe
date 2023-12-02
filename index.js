@@ -19,3 +19,6 @@ app.get('/chai', (req, res) => res.send('<h1>Chai page</h1>'))
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
+
+// Export the Express API
+module.exports = app
